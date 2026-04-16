@@ -1,8 +1,3 @@
-/*
-student.h
-C867 Scripting and Programing
-Created by Shelly Myatt - November 15,2022
-*/
 
 #pragma once // Source file will only run once
 

@@ -1,9 +1,3 @@
-/*
-main.cpp
-C867 Scripting and Programing
-Created by Shelly Myatt - November 15,2022
-*/
-
 #include <iostream>
 #include "roster.h"
 #include "degree.h"
@@ -14,23 +8,19 @@ using namespace std;
 // Print my details
 int main() 
 {
-	cout << "Course Title: (C867) Scripting and Programming - Applications" << endl;
-	cout << "Programming Language: C++" << endl;
-	cout << "Student ID: #000686948" << endl;
 	cout << "Name: Shelly Myatt" << endl;
 	cout << endl;
 
 // Creating Roster as ClassRoster
 Roster classRoster;
 
-// Modify the student data in class roster to include my information
 const string studentData[] = 
 {
 		"A1,John,Smith,John1989@gm ail.com,20,30,35,40,SECURITY",
 		"A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
 		"A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
 		"A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
-		"A5,Shelly,Myatt,sperr47@wgu.edu,31,60,19,85,SOFTWARE"
+		"A5,Stacey,Miles,smiles47@.gmail,31,60,19,85,SOFTWARE"
 };
 
 // Parse strings in studentData to add each student to classRoster

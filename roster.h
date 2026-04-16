@@ -1,8 +1,3 @@
-/*
-roster.h
-C867 Scripting and Programing
-Created by Shelly Myatt - November 15,2022
-*/
 
 #include <string>
 #include "degree.h"

@@ -1,8 +1,3 @@
-/* 
-degree.h
-C867 Scripting and Programing
-Created by Shelly Myatt - November 15,2022
-*/
 
 #ifndef Degree_h
 #define Degree_h

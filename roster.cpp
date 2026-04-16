@@ -1,9 +1,3 @@
-/*
-roster.cpp
-C867 Scripting and Programing
-Created by Shelly Myatt - November 15,2022
-*/
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -131,7 +125,7 @@ void Roster::PrintAvgDaysPerCourse(string studentID)
 	}
 }
 
-// Prints invalid emails (zyBooks 7.2)
+// Prints invalid emails 
 void Roster::PrintInvalidEmails() 
 {
 	string email = "";
